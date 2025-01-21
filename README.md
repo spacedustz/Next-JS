@@ -6,6 +6,11 @@
 
 <details>
 <summary>펼치기</summary>
+
+<br>
+
+### 프로젝트 버전
+
 - Yarn (1.22.22)
 - Node JS (22.11.0)
 
@@ -27,7 +32,9 @@ next build # 빌드
 next dev or next start # 서버 실행
 ```
 
-**.gitignore 파일에 추가할 항목들**
+<br>
+
+### .gitignore 파일에 추가할 항목들
 
 ```text
 ### yarn ###
