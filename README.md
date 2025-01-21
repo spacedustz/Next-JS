@@ -5,7 +5,7 @@
 ## 프로젝트 생성
 
 - Yarn (1.22.22)
-- Node JS 20.15.1 (22.11.0)
+- Node JS (22.11.0)
 
 ```bash
 npm install -g yarn # Yarn 설치
