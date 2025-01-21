@@ -1,9 +1,11 @@
-# 📚 Next-JS
+## 📚 Next-JS
 
 ---
 
 ## 📚 프로젝트 생성
 
+<details>
+<summary>펼치기</summary>
 - Yarn (1.22.22)
 - Node JS (22.11.0)
 
@@ -48,10 +50,15 @@ next dev or next start # 서버 실행
 .pnp.*
 ```
 
+</details>
+
 ---
 
-## 📚 배운 내용
+## 📚 메모
+
+
 
 ### Next-JS 핵심 개념
 
+- [0. App Routing vs Pages Routing](./Docs/Routing.md)
 - [1. 서버 컴포넌트란?](./Docs/1-핵심개념/1-서버-컴포넌트.md)
