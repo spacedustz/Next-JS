@@ -1,15 +1,6 @@
-## 📚 Next-JS
-
----
-
 ## 📚 프로젝트 생성
 
-<details>
-<summary>펼치기</summary>
-
-<br>
-
-### 프로젝트 버전
+### 버전
 
 - Yarn (1.22.22)
 - Node JS (22.11.0)
@@ -34,7 +25,7 @@ next dev or next start # 서버 실행
 
 <br>
 
-### .gitignore 파일에 추가할 항목들
+### Yarn-Berry 업그레이드 시 .gitignore 파일에 추가할 항목
 
 ```text
 ### yarn ###
@@ -56,8 +47,6 @@ next dev or next start # 서버 실행
 !.yarn/versions
 .pnp.*
 ```
-
-</details>
 
 ---
 
