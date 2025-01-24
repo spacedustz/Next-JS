@@ -52,10 +52,26 @@ next dev or next start # 서버 실행
 
 ## 📚 메모
 
+### Directory 구조
 
+> **App 하위**
+
+- `about`, `blog` : 기본적인 서버 컴포넌트, 라우팅 실습 
+
+<br>
+
+미식가 앱(Foodies)
+  - `meals`
+  - `community`
+
+<br>
 
 ### Next-JS 핵심 개념
 
 - [0. App Routing vs Pages Routing](./Docs/Routing.md)
 - [1. 서버 컴포넌트란?](./Docs/1-핵심개념/1-서버-컴포넌트.md)
 - [2. 동적 라우팅](./Docs/1-핵심개념/2-동적라우팅.md)
+
+---
+
+## 📚 미식가(Foodies) 프로젝트
