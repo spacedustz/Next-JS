@@ -56,13 +56,16 @@ next dev or next start # 서버 실행
 
 > **App 하위**
 
-- `about`, `blog` : 기본적인 서버 컴포넌트, 라우팅 실습 
+- `about`, `blog` : 기본적인 서버 컴포넌트, 라우팅 실습
+- 미식가 앱(Foodies)
+  - `meals`
+  - `community`
 
 <br>
 
-미식가 앱(Foodies)
-  - `meals`
-  - `community`
+> **public, assets**
+
+- 각 디렉토리에 있는 original, meals 디렉토리 같이 특정 프로젝트를 진행할때마다 기존 파일들 백업
 
 <br>
 
