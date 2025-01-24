@@ -58,3 +58,4 @@ next dev or next start # 서버 실행
 
 - [0. App Routing vs Pages Routing](./Docs/Routing.md)
 - [1. 서버 컴포넌트란?](./Docs/1-핵심개념/1-서버-컴포넌트.md)
+- [2. 동적 라우팅](./Docs/1-핵심개념/2-동적라우팅.md)
