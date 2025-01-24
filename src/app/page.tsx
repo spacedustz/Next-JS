@@ -5,12 +5,12 @@ const Home: FC = () => {
     return (
         <main>
             {/* 로고 이미지 */}
-            <img src="/logo.png" alt="A server surrounded by magic sparkles."/>
+            {/*<img src="/logo.png" alt="A server surrounded by magic sparkles."/>*/}
 
-            <h1>Welcome to this NextJS Course!</h1>
-            <p>
-                🔥 Let&apos;s get started! 🔥
-            </p>
+            {/*<h1>Welcome to this NextJS Course!</h1>*/}
+            {/*<p>*/}
+            {/*    🔥 Let&apos;s get started! 🔥*/}
+            {/*</p>*/}
 
             {/*
                 ==== 페이지 링크 ====
@@ -24,7 +24,17 @@ const Home: FC = () => {
                     - Link 컴포넌트 사용
             */}
             {/*<p><a href="/about">About App</a></p>*/}
-            <Link href="/about">About Us</Link>
+            {/*<Link href="/about">About Us</Link>*/}
+
+
+            {/* ----- Meals Project ----- */}
+            <h1 style={{color: 'white', textAlign: 'center'}}>
+                Time to get started!
+            </h1>
+
+            <p><Link href="/meals">Meals Project</Link></p>
+            <p><Link href="/meals/share">Share Meals</Link></p>
+            <p><Link href="/community">Community</Link></p>
         </main>
     );
 };

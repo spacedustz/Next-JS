@@ -1,41 +1,42 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+import {JSX} from "react";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-// 모든 페이지의의 메타데이터 정의
-export const metadata: Metadata = {
-  title: "Learn Next-JS",
-  description: "pickle",
+export const metadata = {
+  title: 'NextLevel Food',
+  description: 'Delicious meals, shared by a food-loving community.',
 };
 
-/**
- * 레이아웃의 <head> 등 메타데이터는 위에 MetaData 변수에서 설정 가능함
- * - 루트 레이아웃 컴포넌트 정의
- * - 모든 페이지에 공통적으로 적용될 레이아웃
- * - children = 해당 디렉토리의 page.tsx
- */
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+// RootLayoutProps 타입 정의
+interface RootLayoutProps {
+  children: React.ReactNode; // children은 React 컴포넌트의 기본 타입
+}
+
+export default function RootLayout({ children }: RootLayoutProps): JSX.Element {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <html lang="en">
+      <body>
+      <div className="header-background">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop
+                  offset="0%"
+                  style={{ stopColor: '#59453c', stopOpacity: '1' }}
+              />
+              <stop
+                  offset="100%"
+                  style={{ stopColor: '#8f3a09', stopOpacity: '1' }}
+              />
+            </linearGradient>
+          </defs>
+          <path
+              fill="url(#gradient)"
+              d="M0,256L48,240C96,224,192,192,288,181.3C384,171,480,181,576,186.7C672,192,768,192,864,181.3C960,171,1056,149,1152,133.3C1248,117,1344,107,1392,101.3L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+      {children}
       </body>
-    </html>
+      </html>
   );
 }
